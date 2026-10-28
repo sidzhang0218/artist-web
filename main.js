@@ -1,3 +1,23 @@
+// YouTube may not publish a maximum-resolution thumbnail for every video.
+document.querySelectorAll('.video-thumbnail').forEach(image => {
+  const fallback = () => {
+    if (!image.dataset.fallbackUsed) {
+      image.dataset.fallbackUsed = 'true';
+      image.src = image.dataset.fallback;
+    } else {
+      image.hidden = true;
+      image.closest('.video-link').classList.add('thumbnail-unavailable');
+    }
+  };
+  image.addEventListener('error', fallback);
+  image.addEventListener('load', () => {
+    if (image.naturalWidth <= 120 && !image.dataset.fallbackUsed) fallback();
+  });
+  if (image.complete) {
+    if (!image.naturalWidth) fallback();
+    else if (image.naturalWidth <= 120 && !image.dataset.fallbackUsed) fallback();
+  }
+});
 const slides = [...document.querySelectorAll('.slide')];
 const categories = ['painting', 'sculpture', 'videophotography'];
 const names = {painting: 'Painting', sculpture: 'Sculpture', videophotography: 'Video/Photography'};

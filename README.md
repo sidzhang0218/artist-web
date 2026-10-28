@@ -20,7 +20,7 @@ Real images and captions are extracted from the artist's two portfolio PDFs. Ori
 
 Footer contact: sidzhang0218@gmail.com.
 
-The categories remember the current work during browsing. Navigation stops at the first and last item rather than wrapping. A hidden live region announces the current work for assistive technology. Four YouTube links open externally and require Internet access; everything else works offline.
+The categories remember the current work during browsing. Navigation stops at the first and last item rather than wrapping. A hidden live region announces the current work for assistive technology. Four YouTube links open externally and require Internet access; the artwork photographs and interface work offline.
 
 ## Interactive preview
 
@@ -33,3 +33,5 @@ The site uses relative asset paths so it works at the GitHub Pages project path 
 The last four paintings in chronological order (Town painting #2, #3, #4, and Studio 506) are temporarily excluded at the artist’s request.
 
 The portfolio is labeled Selected work. Two 2023 paintings (Untitled, 63 × 77 inches; Untitled (Noir), 63 × 80 inches) and the 2026 sculpture using Diet cokes and red hats are excluded at the artist’s request.
+
+Video slides show each video’s YouTube thumbnail from i.ytimg.com, with a high-quality fallback if max-resolution artwork is unavailable. If both images fail, the title and video link remain usable. Thumbnails require Internet access; titles and existing timestamped video URLs are preserved.
