@@ -1,6 +1,6 @@
 # Sid Zhang
 
-Minimal artist portfolio. Three categories: Painting, Sculpture, and Video/Photography. The viewer shows one work at a time with small previous/next arrows, keyboard navigation, and horizontal touch swipes. Paintings (13) and sculptures (7) are ordered by year from early to late. Videos retain the supplied portfolio order because dates were not supplied. No statement or promotional copy.
+Minimal artist portfolio. Three categories: Painting, Sculpture, and Video/Photography. The viewer shows one work at a time with small previous/next arrows, keyboard navigation, and horizontal touch swipes. Paintings (10) and sculptures (7) are ordered by year from early to late. Videos retain the supplied portfolio order because dates were not supplied. No statement or promotional copy.
 
 ## Run
 
@@ -39,3 +39,5 @@ Video slides show each video’s YouTube thumbnail from i.ytimg.com, with a high
 The 2024 Untitled sculpture using flags and Evian water bottles is excluded at the artist’s request.
 
 Typography uses locally bundled Open Sans Regular and Semibold. The artist name remains larger than the Selected works subtitle. Navigation and captions use slightly larger semibold text for readability on desktop and mobile. Painting, Sculpture, and Video/Photography remain singular medium/category labels; Selected works is plural for the curated collection.
+
+Excluded at the artist’s request: In Front of The House (2025, 63 × 80 inches), Untitled (Two men) (2024, 63 × 78 inches), and Untitled (2025, 63 × 77 inches).
