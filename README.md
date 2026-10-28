@@ -1,6 +1,6 @@
 # Sid Zhang
 
-Minimal artist portfolio. Three categories: Painting, Sculpture, and Video/Photography. The viewer shows one work at a time with small previous/next arrows, keyboard navigation, and horizontal touch swipes. Paintings (19) and sculptures (9) are ordered by year from early to late. Videos retain the supplied portfolio order because dates were not supplied. No statement or promotional copy.
+Minimal artist portfolio. Three categories: Painting, Sculpture, and Video/Photography. The viewer shows one work at a time with small previous/next arrows, keyboard navigation, and horizontal touch swipes. Paintings (15) and sculptures (9) are ordered by year from early to late. Videos retain the supplied portfolio order because dates were not supplied. No statement or promotional copy.
 
 ## Run
 
@@ -24,8 +24,10 @@ The categories remember the current work during browsing. Navigation stops at th
 
 ## Interactive preview
 
-/workspace/Sid-Morra-Preview.html is a self-contained preview with embedded, optimized copies of the artwork photographs, fonts, styles, and script. Download and open it in a browser; no server is required. /workspace/Sid-Morra-Preview.zip contains the HTML, brief instructions, and font license. /workspace/artist-web-preview.html is the same self-contained preview under its earlier filename. Rebuild these files after source changes; no public deployment has been made.
+/workspace/Sid-Zhang-Preview.html is a self-contained preview with embedded, optimized copies of the artwork photographs, fonts, styles, and script. Download and open it in a browser; no server is required. /workspace/Sid-Zhang-Preview.zip contains the HTML, brief instructions, and font license. /workspace/artist-web-preview.html is the same self-contained preview under its earlier filename. Rebuild these files after source changes; no public deployment has been made.
 
 ## Hosting
 
 The site uses relative asset paths so it works at the GitHub Pages project path /artist-web/. Publish the main branch root with GitHub Pages (Deploy from a branch). The .nojekyll marker serves the static files directly. Only artwork images referenced by index.html are intended for publication.
+
+The last four paintings in chronological order (Town painting #2, #3, #4, and Studio 506) are temporarily excluded at the artist’s request.
