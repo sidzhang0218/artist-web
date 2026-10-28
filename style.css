@@ -7,3 +7,5 @@ footer{max-width:1600px;display:flex;align-items:center;justify-content:space-be
 @media(min-width:1600px){.site-header{padding-top:48px}}
 @media(max-width:650px){.site-header{padding:28px 6% 26px;flex-wrap:wrap;gap:23px}.wordmark{font-size:23px}nav{width:100%;justify-content:space-between;gap:14px}nav a{font-size:11px}#viewer{width:88%;margin-top:8px}.image-stage{height:clamp(260px,51vh,520px)}.caption{margin-top:20px;gap:15px;min-height:65px}.caption h2{font-size:13px}.caption p{font-size:10px}.art-year{font-size:10px}.gallery-controls{margin-top:8px;gap:15px}.arrow-button{width:44px;height:44px}.video-title{font-size:27px}footer{padding:30px 6% 25px;font-size:9px;gap:18px;flex-wrap:wrap}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+.selection-label{display:block;font-size:10px;font-weight:400;letter-spacing:.1px;color:#777;margin-top:6px}

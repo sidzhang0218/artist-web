@@ -1,6 +1,6 @@
 # Sid Zhang
 
-Minimal artist portfolio. Three categories: Painting, Sculpture, and Video/Photography. The viewer shows one work at a time with small previous/next arrows, keyboard navigation, and horizontal touch swipes. Paintings (15) and sculptures (9) are ordered by year from early to late. Videos retain the supplied portfolio order because dates were not supplied. No statement or promotional copy.
+Minimal artist portfolio. Three categories: Painting, Sculpture, and Video/Photography. The viewer shows one work at a time with small previous/next arrows, keyboard navigation, and horizontal touch swipes. Paintings (13) and sculptures (8) are ordered by year from early to late. Videos retain the supplied portfolio order because dates were not supplied. No statement or promotional copy.
 
 ## Run
 
@@ -31,3 +31,5 @@ The categories remember the current work during browsing. Navigation stops at th
 The site uses relative asset paths so it works at the GitHub Pages project path /artist-web/. Publish the main branch root with GitHub Pages (Deploy from a branch). The .nojekyll marker serves the static files directly. Only artwork images referenced by index.html are intended for publication.
 
 The last four paintings in chronological order (Town painting #2, #3, #4, and Studio 506) are temporarily excluded at the artist’s request.
+
+The portfolio is labeled Selected work. Two 2023 paintings (Untitled, 63 × 77 inches; Untitled (Noir), 63 × 80 inches) and the 2026 sculpture using Diet cokes and red hats are excluded at the artist’s request.
