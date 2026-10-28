@@ -37,3 +37,5 @@ The portfolio is labeled Selected work. Two 2023 paintings (Untitled, 63 × 77 i
 Video slides show each video’s YouTube thumbnail from i.ytimg.com, with a high-quality fallback if max-resolution artwork is unavailable. If both images fail, the title and video link remain usable. Thumbnails require Internet access; titles and existing timestamped video URLs are preserved.
 
 The 2024 Untitled sculpture using flags and Evian water bottles is excluded at the artist’s request.
+
+Typography uses locally bundled Open Sans Regular and Semibold. The artist name remains larger than the Selected works subtitle. Navigation and captions use slightly larger semibold text for readability on desktop and mobile. Painting, Sculpture, and Video/Photography remain singular medium/category labels; Selected works is plural for the curated collection.
